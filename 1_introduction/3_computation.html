@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Tools of Big Data - 1.3</title>
+
+		<link rel="stylesheet" href="../reveal/css/reset.css">
+		<link rel="stylesheet" href="../reveal/css/reveal.css">
+		<link rel="stylesheet" href="../reveal/css/theme/evo.css">
+		<!-- <link rel="stylesheet" href="../reveal/css/custom.css"> -->
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../reveal/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+		 link.href = window.location.search.match( /print-pdf/gi ) ? '../reveal/css/print/pdf.css' : '../reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<h1>Tools of Big Data</h1>
+					<h3>Data computation overview</h3>
+          <br />
+          <br />
+          <img src="img/sdd_logo.png"  width="15%" >
+				</section>
+
+				<section>
+					  <h2>Big Data Architectures</h2>
+            <img src="img/big-data-pipeline.png"  width="80%" >
+            <div class="textbox">
+                <small>
+                    source: <a href="https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/">Microsoft</a>
+                </small>
+            </div>
+        </section>
+
+        <section>
+            <h2>Machine Learning interfaces</h2>
+            <br />
+            <br />
+            <br />
+            <ul>
+                <li>Separable from production data manipulation</li>
+                <li>Transferable between test environment and hardware types</li>
+                <li>Access to high performance CPUs or GPUs</li>
+                <li>High level languages like Python</li>
+                <li>Visualization interface</li>
+            </ul>
+            <br />
+            <br />
+            <br />
+            <img src="img/jupyter.png">
+        </section>
+
+        <section>
+            <h2>Virtualization</h2>
+            <img src="img/virtualization.png" width="60%">
+            <div class="textbox" ><small>
+                Source: <a href="https://www.unixtutorial.org/hw-virtualization/">unixtutorial.org</a>
+            </small></div>
+            <br />
+            <br />
+            Why is this suboptimal for machine learning pipelines?
+        </section>
+
+        <section>
+            <h2>Systems for computing</h2>
+            <br />
+            <br />
+            <img src="img/hpc_cloud.bmp" width="40%">
+            <br />
+            <br />
+            <div class="textbox">
+                Cloud advantage:
+                <br/>hardware based on component requirements
+            </div>
+        </section>
+
+        <section>
+            <h2>Cloud: the new compute paradigm</h2>
+            <br />
+            <br />
+            <img src="img/cloud_providers.jpg" width="40%">
+            <div class="textbox">
+                <small>
+                source: <a href="https://www.digitalcmo.fr/offre-cloud-vous-avez-de-plus-en-plus-le-choix/">DigitalCMO</a>
+                </small>
+            </div>
+        </section>
+
+        <section>
+            <h2>This class</h2>
+            <br />
+            <br />
+            <img src="img/obd_data_computation.png">
+            <br />
+            <br />
+            <div class="texbox">
+                Afterwards, data distribution: scaling data computation to multiple servers
+            </div>
+        </section>
+
+        <section>
+            <h2>Exercise</h2>
+            <br />
+            <br />
+            <br />
+            <div class="textbox">
+            Jupyter is at the heart of Python-based data science,<br />but it is not
+            just a Python project.
+            <br />
+            <br />
+            What are the 3 core languages of Jupyter?
+            <br />
+            <br />
+            What other kernels can be used with Jupyter?<br/>Share links to these
+            kernels in Slack.
+            </div>
+        </section>
+
+      </div>
+      <div id="footer-container" style="display:none;">
+          <div id="footer">
+              Tools of Big Data
+              <br />
+              <a href="https://supaerodatascience.github.io/OBD/">https://supaerodatascience.github.io/OBD/</a>
+              <br />
+              <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+          </div>
+      </div>
+		</div>
+
+		<script src="../reveal/js/reveal.js"></script>
+		<script src="../reveal/js/jquery-3.5.0.min.js"></script>
+
+		<script>
+     Reveal.initialize({
+         width: "100%",
+         height: "100%",
+         slideNumber: 'c',
+         transition: 'none',
+         progress: true,
+         hash: true,
+         center: false,
+         dependencies: [
+             { src: '../reveal/plugin/markdown/marked.js' },
+             { src: '../reveal/plugin/markdown/markdown.js' },
+					   { src: '../reveal/plugin/highlight/highlight.js' },
+             { src: '../reveal/plugin/notes/notes.js', async: true }
+         ]
+     });
+     var footer = $('#footer-container').html();
+     $('div.reveal').append(footer);
+		</script>
+	</body>
+</html>
