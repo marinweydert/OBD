@@ -13,7 +13,7 @@ The objective of this class is that students gain:
 + An understanding of distributed programming models and data distribution
 + Broad knowledge of many databases and their respective strengths
 
-As a part of the [Data and Decision Sciences](supaerodatascience.github.io/)
+As a part of the [Data and Decision Sciences](https://supaerodatascience.github.io/)
 Master's program, this module aims specifically at providing the tool set
 students will use for data analysis and knowledge extraction using skills
 acquired in the Algorithms of Machine Learning and Digital Economy and Data Uses
@@ -44,8 +44,8 @@ The class is structured in three parts:
 
 Class dates are subject to change. Please refer to Hyerplng for detailed scheduling.
 
-### Data Computation
-
+Data Computation | | |
+--- | --- | --- | ---
 [Introduction to data computation](introduction) | 2h | 29/09/2020 | 
 Cluster Computing | 2h | 07/10/2020 | [SLURM](readings/slurm.pdf)
 Cloud Computing | 2h | 07/10/2020 | [Cloud computing](readings/cloud_computing.pdf)
@@ -54,8 +54,8 @@ Orchestration | 4h | 20/10/2020 |
 GPU computing, part 1 | 3h | 01/12/2020 |
 GPU computing, part 2 | 3h | 02/12/2020 |
 
-### Data Distribution
-
+Data Distribution | | |
+--- | --- | --- | ---
 Data distribution | 1h | 06/01/2021 | [Spanner](readings/spanner.pdf)
 Functional programming | 4h | 06/01/2021 | [Julia](readings/julia.pdf)
 MapReduce and HDFS | 3h | 19/01/2021 | [MapReduce](readings/mapreduce.pdf)
@@ -63,8 +63,8 @@ Spark | 3h | 19/01/2021 | [Spark](readings/spark.pdf)
 PySpark | 3h | 20/01/2021 | [PySpark](https://spark.apache.org/docs/latest/api/python/pyspark.html)
 Dask project | 6h | 27/01/2021 | [Dask](readings/dask.pdf)
 
-### Databases
-
+Databases | | |
+--- | --- | --- | ---
 Databases overview | 2h | 03/02/2021 |
 PostgeSQL TP | 3h | 08/02/2021 | [PostgeSQL](https://www.postgresql.org/docs/manuals/)
 Project overview | 2h | 15/02/2021 |
