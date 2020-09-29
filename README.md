@@ -46,7 +46,7 @@ Class dates are subject to change. Please refer to Hyerplng for detailed schedul
 
 Data Computation | | | |
 --- | --- | --- | ---
-[Introduction to data computation](1_introduction) | 2h | 29/09/2020 | 
+[Introduction to data computation](1_introduction) | 2h | 29/09/2020 | [Global Datasphere](readings/idc_data.pdf)
 Cluster Computing | 2h | 07/10/2020 | [SLURM](readings/slurm.pdf)
 Cloud Computing | 2h | 07/10/2020 | [Cloud computing](readings/cloud_computing.pdf)
 Virtualisation & Containerisation | 4h | 14/10/2020 |
